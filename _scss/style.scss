@@ -1,0 +1,142 @@
+/*------------------------------------*\
+    #STYLEGUIDE
+\*------------------------------------*/
+
+/*!*
+ * Origin
+ * Authors:
+ *     - Tom Hare (@colourgarden)
+ */
+
+/**
+ * CONTENTS
+ *
+ * VENDOR
+ * Bourbon..............Bourbon mixin library
+ *
+ * SETTINGS
+ * Global...............Our own global settings and config.
+ * Colors...............Colour settings and assignments.
+ * Default..............inuitcss’ default settings.
+ *
+ * TOOLS
+ * Functions............inuitcss’ default functions.
+ * Mixins...............inuitcss’ default mixins.
+ * Mixins...............Our mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Reset................A pared back reset to remove margins.
+ * Box-sizing...........Better default `box-sizing`.
+ * Shared...............Sensibly and tersely share global commonalities.
+ * Clearfix.............I can’t believe we still need this in 2014.
+ *
+ * BASE
+ * Page.................Page-level styles (HTML element).
+ * Typography...........High-level type styles.
+ * Paragraphs...........Simple rules for paragraphs.
+ * Headings.............Basic heading styles.
+ * Lists................Simple list styles.
+ * Images...............Basic image styling.
+ *
+ * OBJECTS
+ * Layout...............A more versatile grid system.
+ * Bare-list............Naked lists!
+ * Block list...........Blocky list types.
+ * UI-list..............Blocky lists with keyline divides.
+ * Tables...............Simple table objects.
+ * Media................The famous media object.
+ * Flag.................A more versatile media object.
+ * Box..................A simple boxing abstraction.
+ * Buttons..............Basic button styles.
+ * Tabs.................A simple tabs abstraction.
+ *
+ * COMPONENTS
+ *
+ * TRUMPS
+ * Widths...............Width classes for use with our layout system.
+ * Spacing..............Handy little helper classes for nudging layout around.
+ */
+
+
+
+
+
+/**
+ * #VENDOR
+ */
+@import "bower_components/bourbon/dist/bourbon";
+
+
+
+/**
+ * #SETTINGS
+ */
+@import "settings.global";
+@import "settings.colors";
+
+@import "bower_components/inuit-defaults/settings.defaults";
+
+
+
+/**
+ * #TOOLS
+ */
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+@import "tools.mixins";
+
+
+
+/**
+ * #GENERIC
+ */
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "bower_components/inuit-shared/generic.shared";
+@import "bower_components/inuit-clearfix/generic.clearfix";
+
+
+
+/**
+ * #BASE
+ */
+@import "bower_components/inuit-page/base.page";
+
+@import "base.typography";
+
+@import "bower_components/inuit-paragraphs/base.paragraphs";
+@import "bower_components/inuit-headings/base.headings";
+@import "bower_components/inuit-lists/base.lists";
+@import "bower_components/inuit-images/base.images";
+
+
+
+/**
+ * #OBJECTS
+ */
+@import "bower_components/inuit-layout/objects.layout";
+@import "bower_components/inuit-bare-list/objects.bare-list";
+@import "bower_components/inuit-block-list/objects.block-list";
+@import "bower_components/inuit-ui-list/objects.ui-list";
+@import "bower_components/inuit-tables/objects.tables";
+@import "bower_components/inuit-media/objects.media";
+@import "bower_components/inuit-flag/objects.flag";
+@import "bower_components/inuit-box/objects.box";
+@import "bower_components/inuit-buttons/objects.buttons";
+@import "bower_components/inuit-tabs/objects.tabs";
+
+
+
+/**
+ * #COMPONENTS
+ */
+
+
+
+/**
+ * #TRUMPS
+ */
+@import "bower_components/inuit-widths/trumps.widths";
+@import "bower_components/inuit-spacing/trumps.spacing";

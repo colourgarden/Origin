@@ -1,0 +1,41 @@
+{
+  "name": "Origin",
+  "version": "0.1",
+  "authors": [
+    "Tom Hare -- @colourgarden"
+  ],
+  "description": "Origin project starter",
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.0.2",
+    "inuit-bare-list": "*",
+    "inuit-block-list": "*",
+    "inuit-box-sizing": "*",
+    "inuit-buttons": "*",
+    "inuit-box": "*",
+    "inuit-flag": "*",
+    "inuit-images": "*",
+    "inuit-headings": "*",
+    "inuit-layout": "*",
+    "inuit-media": "*",
+    "inuit-lists": "*",
+    "inuit-normalize": "~0.1.0",
+    "inuit-page": "*",
+    "inuit-paragraphs": "*",
+    "inuit-reset": "*",
+    "inuit-spacing": "*",
+    "inuit-shared": "*",
+    "inuit-tables": "*",
+    "inuit-tabs": "*",
+    "inuit-ui-list": "*",
+    "inuit-widths": "*"
+  }
+}

@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Tom Hare -- Powder Digital -- @colourgarden
+
+# THANKS
+
+    HTML5 Boilerplate -- http://h5bp.com
+    Inuit CSS -- http://inuitcss.com

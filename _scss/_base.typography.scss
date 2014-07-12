@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+html {
+  font-family: $base-font-stack;
+}
+
+
+/**
+ * Heading styles.
+ */
+@include headings() {
+  @include font-weight(medium);
+}
+
+
+/**
+ * Assign numbered values to ‘bold’ elements.
+ */
+b, strong {
+}

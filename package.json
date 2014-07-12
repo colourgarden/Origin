@@ -1,0 +1,15 @@
+{
+  "name": "origin",
+  "author": "Tom Hare",
+  "description": "Origin project starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.6",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-autoprefixer": "0.0.7",
+    "browser-sync": "~0.9.1"
+  }
+}
